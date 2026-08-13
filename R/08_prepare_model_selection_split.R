@@ -1,0 +1,21 @@
+
+source(file.path(Sys.getenv("SEPSIS_HMM_CODE_DIR", unset = file.path(getwd(), "R")), "00_setup.R"))
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 1L) stop("Usage: Rscript 08_prepare_model_selection_split.R <iteration>")
+iteration <- as.integer(args[[1L]])
+if (!is.finite(iteration) || iteration < 1L) stop("Invalid iteration.")
+
+source(code_path("06_preprocessing.R"))
+manifest <- read_hmm_finalization_manifest()
+cat("Using finalized HMM input:\n")
+cat("  cohort:", manifest$resolved_paths$cohort, "\n")
+cat("  matrix :", manifest$resolved_paths$matrix, "\n")
+cat("  stays  :", manifest$n_stays_final, "\n")
+
+x <- ensure_iteration_bundle(iteration = iteration)
+cat("Iteration cache ready:\n")
+cat("  iteration:", iteration, "\n")
+cat("  cache:", iteration_cache_path(iteration), "\n")
+cat("  train stays:", length(x$train_ids), "\n")
+cat("  validation stays:", length(x$val_ids), "\n")
+cat("  stable reference rows:", nrow(x$stable_reference), "\n")

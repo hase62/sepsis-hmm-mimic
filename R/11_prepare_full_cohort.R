@@ -1,0 +1,10 @@
+
+source(file.path(Sys.getenv("SEPSIS_HMM_CODE_DIR", unset = file.path(getwd(), "R")), "00_setup.R"))
+source(code_path("06_preprocessing.R"))
+bundle <- ensure_fullcohort_bundle()
+cat("Full-cohort preprocessing ready:\n")
+cat("  cache:", fullcohort_cache_path(), "\n")
+cat("  stays:", length(unique(bundle$pat_ids)), "\n")
+cat("  rows:", nrow(bundle$hmm_data), "\n")
+cat("  stable reference rows:", nrow(bundle$stable_reference), "\n")
+cat("  observation variables:", length(bundle$observation_variable_names), "\n")
