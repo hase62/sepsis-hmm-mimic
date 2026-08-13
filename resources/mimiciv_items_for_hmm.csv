@@ -1,0 +1,199 @@
+itemid,label,abbreviation,category,matched_test
+50802,Base Excess,Blood,Blood Gas,cBase
+50803,"Calculated Bicarbonate, Whole Blood",Blood,Blood Gas,cHCO3
+50804,Calculated Total CO2,Blood,Blood Gas,cCO2
+50806,"Chloride, Whole Blood",Blood,Blood Gas,cCl.
+50809,Glucose,Blood,Blood Gas,cGlu.
+50810,"Hematocrit, Calculated",Blood,Blood Gas,cHct.
+50811,Hemoglobin,Blood,Blood Gas,cHem.
+50813,Lactate,Blood,Blood Gas,cLac.
+50817,Oxygen Saturation,Blood,Blood Gas,sO2
+50818,pCO2,Blood,Blood Gas,pCO2
+50819,PEEP,Blood,Blood Gas,cPEEP
+50820,pH,Blood,Blood Gas,cPH
+50821,pO2,Blood,Blood Gas,pO2
+50822,"Potassium, Whole Blood",Blood,Blood Gas,cK.
+50824,"Sodium, Whole Blood",Blood,Blood Gas,cNa.
+50825,Temperature,Blood,Blood Gas,Temperature
+50852,% Hemoglobin A1c,Blood,Chemistry,HbA1c
+50861,Alanine Aminotransferase (ALT),Blood,Chemistry,ALT
+50862,Albumin,Blood,Chemistry,Albumin
+50863,Alkaline Phosphatase,Blood,Chemistry,ALP
+50868,Anion Gap,Blood,Chemistry,AnionGap
+50878,Asparate Aminotransferase (AST),Blood,Chemistry,AST
+50882,Bicarbonate,Blood,Chemistry,HCO3
+50885,"Bilirubin, Total",Blood,Chemistry,TotalBilirubin
+50889,C-Reactive Protein,Blood,Chemistry,CRP
+50893,"Calcium, Total",Blood,Chemistry,Calcium
+50902,Chloride,Blood,Chemistry,Chlor
+50910,Creatine Kinase (CK),Blood,Chemistry,CK
+50912,Creatinine,Blood,Chemistry,Creatinine
+50915,D-Dimer,Blood,Chemistry,DDimer
+50920,Estimated GFR (MDRD equation),Blood,Chemistry,eGFR
+50924,Ferritin,Blood,Chemistry,Ferritin
+50927,Gamma Glutamyltransferase,Blood,Chemistry,gGTP
+50931,Glucose,Blood,Chemistry,Glucose
+50954,Lactate Dehydrogenase (LD),Blood,Chemistry,LDH
+50960,Magnesium,Blood,Chemistry,Magnesium
+50963,NTproBNP,Blood,Chemistry,BNP
+50971,Potassium,Blood,Chemistry,Potassium
+50983,Sodium,Blood,Chemistry,Sodium
+51003,Troponin T,Blood,Chemistry,TroponinT
+51006,Urea Nitrogen,Blood,Chemistry,UreaNitrogen
+51007,Uric Acid,Blood,Chemistry,UricAcid
+51133,Absolute Lymphocyte Count,Blood,Hematology,Lymphocytes_abs
+51141,APT Test,Blood,Hematology,APTT
+51146,Basophils,Blood,Hematology,Basophils
+51196,D-Dimer,Blood,Hematology,DDimer
+51199,Eosinophil Count,Blood,Hematology,Eosinophils_abs
+51200,Eosinophils,Blood,Hematology,Eosinophils_abs
+51218,Granulocyte Count,Blood,Hematology,Granulocyte
+51221,Hematocrit,Blood,Hematology,Hematocrit
+51222,Hemoglobin,Blood,Hematology,Hemoglobin
+51237,INR(PT),Blood,Hematology,INR(PT)
+51244,Lymphocytes,Blood,Hematology,Lymphocytes
+51248,MCH,Blood,Hematology,MCH
+51249,MCHC,Blood,Hematology,MCHC
+51250,MCV,Blood,Hematology,MCV
+51254,Monocytes,Blood,Hematology,Monocytes
+51256,Neutrophils,Blood,Hematology,Neutrophils
+51265,Platelet Count,Blood,Hematology,PlateletCount
+51274,PT,Blood,Hematology,PT
+51275,PTT,Blood,Hematology,PTT
+51277,RDW,Blood,Hematology,RDW
+51279,Red Blood Cells,Blood,Hematology,RBC
+51300,WBC Count,Blood,Hematology,WBC
+51301,White Blood Cells,Blood,Hematology,WBC
+51638,Hematocrit,Blood,Chemistry,Hematocrit
+51639,Hematocrit,Blood,Chemistry,Hematocrit
+51640,Hemoglobin,Blood,Chemistry,Hemoglobin
+51675,INR(PT),Blood,Chemistry,INR(PT)
+51691,MCV,Blood,Chemistry,MCV
+51755,White Blood Cells,Blood,Chemistry,WBC
+51756,White Blood Cells,Blood,Chemistry,WBC
+52022,"Albumin, Blood",Blood,Blood Gas,cAlb
+52024,"Creatinine, Whole Blood",Blood,Blood Gas,cCrea
+52026,Estimated GFR (MDRD equation),Blood,Blood Gas,ceGFR
+52027,"Glucose, Whole Blood",Blood,Blood Gas,cGlu.
+52028,Hematocrit,Blood,Blood Gas,cHct.
+52029,Ionized Calcium,Blood,Blood Gas,CalciumIonized
+52032,P50 of Hemoglobin,Blood,Blood Gas,p50
+52034,Total Calcium,Blood,Blood Gas,cCa2.
+52035,Total Calcium,Blood,Blood Gas,cCa2.
+52069,Absolute Basophil Count,Blood,Hematology,Basophils_abs
+52073,Absolute Eosinophil Count,Blood,Hematology,Eosinophils_abs
+52074,Absolute Monocyte Count,Blood,Hematology,Monocytes_abs
+52075,Absolute Neutrophil Count,Blood,Hematology,Neutrophils_abs
+52204,RBCDist,Blood,Hematology,RDW
+52434,"Chloride, Whole Blood",Blood,Blood Gas,cCl.
+52442,Lactate,Blood,Blood Gas,cLac.
+52452,"Potassium, Whole Blood",Blood,Blood Gas,cK.
+52455,"Sodium, Whole Blood",Blood,Blood Gas,cNa.
+52500,Anion Gap,Blood,Chemistry,AnionGap
+52535,Chloride,Blood,Chemistry,Chlor
+52546,Creatinine,Blood,Chemistry,Creatinine
+52551,D-Dimer,Blood,Chemistry,DDimer
+52569,Glucose,Blood,Chemistry,Glucose
+52610,Potassium,Blood,Chemistry,Potassium
+52623,Sodium,Blood,Chemistry,Sodium
+52642,Troponin I,Blood,Chemistry,TroponinI
+52647,Urea Nitrogen,Blood,Chemistry,UreaNitrogen
+52769,Absolute Lymphocyte Count,Blood,Hematology,Lymphocytes_abs
+52921,PT,Blood,Chemistry,PT
+52923,PTT,Blood,Chemistry,PTT
+53085,Albumin,Blood,Chemistry,Albumin
+53089,"Bilirubin, Total",Blood,Chemistry,TotalBilirubin
+53093,Gamma Glutamyltranferase,Blood,Chemistry,gGTP
+53154,Lactate,Blood,Chemistry,Lactate
+53157,Absolute Lymphocyte Count,Blood,Chemistry,Lymphocytes_abs
+53159,Absolute Neutrophil Count,Blood,Chemistry,Neutrophils
+53161,Estimated GFR (CKD- EPI Refit),Blood,Chemistry,eGFR
+53164,Neutrophils,Blood,Chemistry,Neutrophils
+53180,Estimated GFR (CKD- EPI 2021),Blood,Blood Gas,ceGFR
+53185,MCHC,Blood,Chemistry,MCHC
+53186,MCH,Blood,Chemistry,MCH
+53188,Lymphocytes,Blood,Chemistry,Lymphocytes
+53189,Platelet Count,Blood,Chemistry,PlateletCount
+220045,Heart Rate,HR,Routine Vital Signs,HR
+220050,Arterial Blood Pressure systolic,ABPs,Routine Vital Signs,ART.S.
+220051,Arterial Blood Pressure diastolic,ABPd,Routine Vital Signs,ART.D.
+220052,Arterial Blood Pressure mean,ABPm,Routine Vital Signs,ART.M.
+220179,Non Invasive Blood Pressure systolic,NBPs,Routine Vital Signs,SYS.
+220180,Non Invasive Blood Pressure diastolic,NBPd,Routine Vital Signs,DIAS.
+220181,Non Invasive Blood Pressure mean,NBPm,Routine Vital Signs,MEAN
+220210,Respiratory Rate,RR,Respiratory,RR
+220224,Arterial O2 pressure,PO2 (Arterial),Labs,pO2
+220227,Arterial O2 Saturation,SaO2,Labs,sO2
+220228,Hemoglobin,Hemoglobin,Labs,Hemoglobin
+220235,Arterial CO2 Pressure,PCO2 (Arterial),Labs,pCO2
+220277,O2 saturation pulseoxymetry,SpO2,Respiratory,SpO2
+220545,Hematocrit (serum),Hematocrit (serum),Labs,Hematocrit
+220546,WBC,WBC,Labs,WBC
+220587,AST,AST,Labs,AST
+220602,Chloride (serum),Chloride (serum),Labs,Chlor
+220615,Creatinine (serum),Creatinine (serum),Labs,Creatinine
+220621,Glucose (serum),Glucose (serum),Labs,Glucose
+220632,LDH,LDH,Labs,LDH
+220635,Magnesium,Magnesium,Labs,Magnesium
+220644,ALT,Blood,Labs,ALT
+220645,Sodium (serum),Sodium (serum),Labs,Sodium
+220650,Total Protein,Total Protein,Labs,TotalProtein
+223679,TCO2 (calc) Venous,TCO2 (calc) Venous,Labs,CO2
+223761,Temperature Fahrenheit,Temperature F,Routine Vital Signs,Temperature
+223762,Temperature Celsius,Temperature C,Routine Vital Signs,Temperature
+223830,PH (Arterial),PH (Arterial),Labs,PH
+223835,Inspired O2 Fraction,FiO2,Respiratory,FiO2
+224167,Manual Blood Pressure Systolic Left,Manual BPs L,Routine Vital Signs,SYS.
+224643,Manual Blood Pressure Diastolic Left,Manual BPd L,Routine Vital Signs,DIAS.
+224728,Peak Exp Flow Rate,Peak Exp Flow Rate,Respiratory,Peak
+224828,Arterial Base Excess,Arterial Base Excess,Labs,cBase
+225309,ART BP Systolic,ART BP Systolic,Routine Vital Signs,ART.S.
+225310,ART BP Diastolic,ART BP Diastolic,Routine Vital Signs,ART.D.
+225312,ART BP Mean,ART BP Mean,Routine Vital Signs,ART.M.
+225612,Alkaline Phosphate,Blood,Labs,ALP
+225624,BUN,Blood,Labs,UreaNitrogen
+225625,Calcium non-ionized,Blood,Labs,Calcium
+225634,CK (CPK),CK (CPK),Labs,CK
+225636,D-Dimer,D-Dimer,Labs,DDimer
+225639,Differential-Basos,Differential-Basos,Labs,Basophils
+225640,Differential-Eos,Differential-Eos,Labs,Eosinophils
+225641,Differential-Lymphs,Differential-Lymphs,Labs,Lymphocytes
+225642,Differential-Monos,Differential-Monos,Labs,Monocytes
+225643,Differential-Neuts,Differential-Neuts,Labs,Neutrophils
+225667,Ionized Calcium,Ionized Calcium,Labs,CalciumIonized
+225668,Lactic Acid,Lactic Acid,Labs,Lactate
+225671,LDL calculated,LDL calculated,Labs,LDL
+225677,Phosphorous,Phosphorous,Labs,Phosphorous
+225690,Total Bilirubin,Total Bilirubin,Labs,TotalBilirubin
+225698,TCO2 (calc) Arterial,TCO2 (calc) Arterial,Labs,CO2
+226534,Sodium (whole blood),Sodium (whole blood),Labs,Sodium
+226536,Chloride (whole blood),Chloride (whole blood),Labs,Chlor_whole
+226537,Glucose (whole blood),Glucose (whole blood),Labs,Glucose_whole
+226540,Hematocrit (whole blood - calc),Hematocrit (whole blood - calc),Labs,Hematocrit
+227073,Anion gap,Anion gap,Labs,AnionGap
+227242,Manual Blood Pressure Diastolic Right,Manual BPd R,Routine Vital Signs,DIAS.
+227243,Manual Blood Pressure Systolic Right,Manual BPs R,Routine Vital Signs,SYS.
+227441,LDL measured,LDL measured,Labs,LDL
+227442,Potassium (serum),Potassium (serum),Labs,Potassium
+227443,HCO3 (serum),HCO3 (serum),Labs,HCO3
+227444,C Reactive Protein (CRP),Blood,Labs,CRP
+227445,CK-MB,CK-MB,Labs,CK
+227456,Albumin,Blood,Labs,Albumin
+227457,Platelet Count,Platelet Count,Labs,PlateletCount
+227464,Potassium (whole blood),Potassium (whole blood),Labs,Potassium_whole
+227465,Prothrombin time,PT,Labs,PT
+227466,PTT,PTT,Labs,PTT
+227467,INR,INR,Labs,INR(PT)
+227468,Fibrinogen,Fibrinogen,Labs,Fibrinogen
+228240,D-Dimer (SOFT),D-Dimer (SOFT),Labs,DDimer
+228640,EtCO2,EtCO2,Routine Vital Signs,EtCO2
+229280,FiO2 (ECMO),FiO2 (ECMO),ECMO,FiO2
+229355,Absolute Neutrophil Count,Blood,Labs,Neutrophils_abs
+229357,Absolute Count - Neuts,Blood,Labs,Neutrophils_abs
+229358,Absolute Count - Lymphs,Blood,Labs,Lymphocytes_abs
+229359,Absolute Count - Monos,Blood,Labs,Monocytes_abs
+229360,Absolute Count - Eos,Blood,Labs,Eosinophils_abs
+229361,Absolute Count - Basos,Blood,Labs,Basophils_abs
+229761,Creatinine (whole blood),Creatinine (whole blood),Labs,Creatinine_whole
+229841,FiO2 (CH),FiO2 (CH),ECMO,FiO2
+230042,RR per min,RR per min,RDOS,RR
