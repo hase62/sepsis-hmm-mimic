@@ -1,6 +1,8 @@
-# Sepsis HMM analysis
+# Longitudinal HMM analysis of peri-admission ventilated sepsis in MIMIC-IV
 
-This repository contains the MIMIC-IV analysis code for a longitudinal hidden Markov model study of mechanically ventilated sepsis. It reproduces cohort construction, preprocessing, HMM model selection and fitting, deterministic state annotation, and downstream statistical analyses.
+This repository contains the MIMIC-IV analysis code for a longitudinal hidden Markov model study of serial physiological subphenotypes in sepsis with peri-admission invasive mechanical ventilation. The primary cohort is restricted to qualifying sepsis ICU stays with invasive ventilation overlapping the interval from 6 hours before to 6 hours after ICU admission.
+
+The code reproduces cohort construction, preprocessing, HMM state-number selection and fitting, deterministic clinical summarization of the fitted state space, and downstream longitudinal analyses. The repository is intended to reproduce the MIMIC-IV component of the study rather than to provide a general-purpose sepsis phenotyping model for all ICU patients with sepsis.
 
 Publication-layout scripts for the final manuscript figures and supplementary files are not included. Individual analysis scripts may generate analysis-specific figures. Code that depends on the private Japanese hospital cohort is not included.
 
@@ -54,7 +56,7 @@ Rscript check_inputs.R "$MIMIC_ROOT"
 Rscript run_pipeline.R prepare-data "$MIMIC_ROOT" "$SEPSIS_HMM_OUTPUT_DIR"
 ```
 
-This stage creates the mechanically ventilated sepsis cohort, laboratory-anchored analytical rows, and the finalized HMM input matrix.
+This stage creates the peri-admission invasively ventilated sepsis cohort, laboratory-anchored analytical rows, and the finalized HMM input matrix.
 
 ## 2. HMM state-number selection
 
